@@ -472,7 +472,7 @@
           <p class="title-modal-form">
             Leave your contacts and we will call you back
           </p>
-          <div class="input-area-wrapper">
+          <div class="input-area-wrapper first-type">
             <input
               type="text"
               name="user-name"
@@ -528,23 +528,25 @@
               ><span class="input-text">Comment</span></label
             >
           </div>
-          <input
-            type="checkbox"
-            name="policy-check"
-            id="policy-check"
-            class="modal-policy-check visually-hidden"
-            value="true"
-          />
-          <label class="check-text" for="policy-check"
-            ><span class="input-check-text"
-              ><span class="check-icon-form"
-                ><svg class="check-icon" width="10" height="8">
-                  <use href="./images/icons/icons.svg#icon-check"></use>
-                </svg> </span
-              >I accept the terms and conditions of the&#8195;
-              <a href="">Privacy Policy</a>
-            </span>
-          </label>
+          <div class="input-area-wrapper-last">
+            <input
+              type="checkbox"
+              name="policy-check"
+              id="policy-check"
+              class="modal-policy-check visually-hidden"
+              value="true"
+            />
+            <label class="check-text" for="policy-check"
+              ><span class="input-check-text"
+                ><span class="check-icon-form"
+                  ><svg class="check-icon" width="10" height="8">
+                    <use href="./images/icons/icons.svg#icon-check"></use>
+                  </svg> </span
+                >I accept the terms and conditions of the&nbsp;
+                <a href="" class="policy-link">Privacy Policy</a>
+              </span>
+            </label>
+          </div>
           <div class="btn-wrap">
             <button type="submit" class="modal-sub-btn btn-fam">Send</button>
           </div>
